@@ -38,23 +38,9 @@ mongod --dbpath ./data/mongo
 ### Run server
 
 ```sh
-npm start
+npm start/node index.js and nodemone
 # alias for
 node bin/www
-```
-
-### Create demo data
-
-```sh
-npm run-script generate
-# alias for
-node generateData.js
-```
-
-### Create demo data
-
-```sh
-docker exec nodeapi_node_api_1 node generateData.js
 ```
 ## Tests
 
